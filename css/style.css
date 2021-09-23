@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h,h6,p,ul,ol,li{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Yeseva One', cursive;
+    src: url(../webfornt/YesevaOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(../webfornt/loto/Lato-Regular.ttf);
+}
+/*=============================== common css end============================================*/
+
+/*=============================== menu part css start============================================*/
+#manu_part{
+    padding: 60px 0;
+}
+.main_menu{
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 100%;
+    z-index: 999;
+}
+.main_menu ul li{
+    margin-left: 10px;
+}
+.main_menu ul li a{
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Lato-Regular';
+    banner
+    line-height: 50px;
+    position: relative;
+}
+.main_menu ul li a::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: -28px;
+    background: #fff;
+    height: 3px;
+    transition: all linear .3s;
+}
+.main_menu ul li a:hover{
+    color: #fff;
+}
+.main_menu ul li a:hover::after{
+    width: 100%;
+}
+
+
+/*=============================== menu part css end==============================================*/
+/*=============================== banner css start============================================*/
+#manu_part{
+    padding-bottom: 180px;
+}
+.banner_item h2{
+    color: #fff;
+    font-size: 95px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.banner_item img{
+    width: 320px;
+    margin-left: 400px;
+}
+.banner_item a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato-Regular';
+    text-transform: uppercase;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 60px;
+    width: 200px;
+    margin-left: 20px;
+    padding: 15px;
+}
+.banner_item a:hover{
+    background: rgba(0, 0, 0, 0.6);
+    border: 0;
+}
+.banner_item .banner_btn {
+    margin-left: 330px;
+}
+
+
+/*=============================== banner css end==============================================*/
+/*=============================== right_food css start============================================*/
+#right_food{
+    padding: 80px 0;
+}
+.food_text h3{
+    color: #cc9900;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.food_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato-Regular';
+    margin-top: 20px;
+}
+.food_text img{
+    margin-top: 10px;
+}
+/*=============================== right_food css end==============================================*/
+/*=============================== fine css start============================================*/
+#fine_part{
+    padding: 80px 0;
+}
+.fine_text{
+    background: rgba(0, 0, 0, 0.67);
+    width: 500px;
+    height: 500px;
+    padding: 45px;
+}
+.fine_text h4{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    padding-top: 20px;
+}
+.fine_text img{
+    color: #fff;
+    padding-top: 20px;
+}
+.fine_text p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato-Regular';
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*=============================== fine css end==============================================*/
+/*=============================== appetis part css start============================================*/
+#appetis_part{
+    padding: 60px 0;
+}
+.appis{
+    padding: 2gueat part0px 0;
+}
+.appis h2{
+    color: #cc9900;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+.appis img{
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.appis h3{
+    color: #cc9900;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Lato-Regular';
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.appis h3::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 37px;
+    background: #cc9900;
+    width: 71%;
+    height: 1px;
+    z-index: -1;
+    margin-left: 80px;
+}
+.appis p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato-Regular';
+    text-align: center;
+    margin-bottom: 40px;
+}
+/*=============================== appetis part css end==============================================*/
+/*=============================== gueat part css start============================================*/
+#guest_part{
+    padding: 60px 0;
+}
+.guest_text{
+    background: rgba(0, 0, 0, 0.67);
+    width: 600px;
+    height: 500px;
+    padding: 45px;
+    margin-left: 350px;
+}
+.guest_text h3{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+.guest_text img{
+    margin-left: 130px;
+    margin-top: 10px;
+}
+.guest_text p{
+    color: #fff;
+    font-size: 25right_foodpx;
+    font-weight: 400;
+    font-family: 'Lato-Regular';
+    text-align: center;
+    line-height: 40px;
+}
+/*=============================== gueat part css end==============================================*/
+/*=============================== right_food css start============================================*/
+#just_food{
+    padding: 60px 0;
+}
+.food_photo img{
+    width: 260px;
+}
+.food_photo_2 img{
+    width: 260px;
+}
+.food_text h3{
+    color: #cc9900;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    margin-top: -10px;
+}
+.food_text img{
+
+    margin-left: 160px; 
+}
+.food_text p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato-Regular';
+    text-align: center;
+    margin: 0 70px;
+    margin-bottom: 30px;
+}
+.btn{
+    text-align: center;
+    margin-left: -5px;
+}
+
+.btn-primary{
+    padding: 5px 0;
+    width: 200px;
+    background: #cc9900;
+    border: 0;
+    
+}
+.btn-primary:hover{
+    background: #cc9900;
+}
+.form_text{
+    color: #cc9900;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato-Regular';
+}
+/*=============================== footer css start============================================*/
+#footer_part{
+    padding: 80px 0;
+    background: #191919;
+}
+.footer_text h3{
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+.footer_text img{
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer_text p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    line-height: 30px;
+}
+/*=============================== footer css end==============================================*/
+.footer_social ul{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.footer_social ul li{
+    
+    margin-left: 15px;
+    
+}
+.footer_social ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.payable ul{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.payable ul li{
+    margin-left: 15px;
+}
+.payable ul li a{
+    color: #fff;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
